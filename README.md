@@ -23,4 +23,4 @@ Estamos usando Ubuntu Server 14.04 bajo Microsoft Azure como plataforma para el 
 * Radios Streaming ( sobre listas de reproducción usando Icecast2 + Ices0 )
 * Compartición de las radios ( mediante enlaces http que lleven a una reproducción embebida )
 
-Además, nos gustaría poder añadir la compartición streaming del audio del equipo del usuario ( de la misma forma que las radios ) pero de momento desconocemos como podríamos enviar el flujo de audio del sistema a Icecast2 de una forma transparente al usuario, por eso lo comentamos como opcional pese a que ni siquiera sabemos si es posible.
+Además, nos gustaría poder añadir la compartición streaming del audio del equipo del usuario ( de la misma forma que las radios ) pero de momento desconocemos como podríamos enviar el flujo de audio del sistema a Icecast2 de una forma transparente al usuario, por eso lo comentamos como **opcional** pese a que ni siquiera sabemos si es posible.
