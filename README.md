@@ -1,4 +1,4 @@
-##MySS ( My Sreaming Sound )
+##MySS ( My Streaming Sound )
 
 ¿Cansados de no tener siempre a mano es canción que necesitamos de vez en cuando para continuar con armonía a través de nuestra intensa jornada de quehaceres? ¿Artos de no encontrar para escuchar vuestra canción favorita por internet y que tenéis almacenada a salvo en vuestro ordenador? ¿O quizás sois de esos que usáis tantos dispositivos que ni sabéis la música que tenéis y Spotify no os deja satisfechos? ¡¡Pues estáis de suerte porque habéis acertado eligiendo nuestra aplicación!!
 
