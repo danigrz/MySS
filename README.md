@@ -11,3 +11,16 @@
 * Crea de tus listas, radios streaming.
 * Comparte tus canciones, tus listas y tus radios.
 * *Comparte el audio de tu sistema con un click* ( Estamos trabajando en esta posibilidad )
+
+*Infraestructura*
+
+Estamos usando Ubuntu Server 14.04 bajo Microsoft Azure como plataforma para el servicio. Actualmente solo hemos hecho pruebas con el sreaming de audio para saber si era posible la realización de la radio. Para ello hemos usado Icescast2 como servidor streaming y Ices0 como *feeder* de flujo de audio a Icecast dentro del propio Ubuntu Server. La aplicación se servirá a través de una página web que desarrollaremos en la que los usuarios podrán ver y subir las canciones que deseen desde sus equipos y, a través de la misma podrán escuchar de forma estática ( cuando ellos quieran ) las canciones, crear listas de reproducción, crear radios streaming en tiempo real de las mismas y compartir todo este contenido con otros usuarios, por tanto el sistema se desglosa en:
+
+* Usuarios con su nick y contraseña.
+* Carpetas con música.
+* Listas de reproducción ( sobre carpetas )
+* Compartición de las mismas y de canciones ( mediante links a las mismas en carpetas compartidas )
+* Radios Streaming ( sobre listas de reproducción usando Icecast2 + Ices0 )
+* Compartición de las radios ( mediante enlaces http que lleven a una reproducción embebida )
+
+Además, nos gustaría poder añadir la compartición streaming del audio del equipo del usuario ( de la misma forma que las radios ) pero de momento desconocemos como podríamos enviar el flujo de audio del sistema a Icecast2 de una forma transparente al usuario, por eso lo comentamos como opcional pese a que ni siquiera sabemos si es posible.
